@@ -12,7 +12,7 @@ The Joystick Library should work with all the Arduino versions supported by the 
 
 # How to Use
 ## Install and prepare the Arduino IDE
-1. You need to install the Arduino IDE if you haven't already. You can do that from https://www.arduino.cc/en/Main/Software.
+1. You need to install the Arduino IDE on your computer if you haven't already. You can do that from https://www.arduino.cc/en/Main/Software.
 2. Open the Arduino IDE.
 3. Select the Tools menu, then Boards, then Boards Manager...
 4. Depending on the Arduino you have, you need to install the Arduino Core for your board into the Arduino IDE:
@@ -32,9 +32,9 @@ The Joystick Library should work with all the Arduino versions supported by the 
 
 1. Plug in your Arduino to the computer running the Arduino IDE. This will typically be using a USB cable, but may not be.
 2. Click on Tools menu, then Port, then select the COM Port that your Arduino has used to connect to your computer. The COM Port needs to be correct, so that the Arduino IDE can talk to the Arduino board. If the Port is set incorrectly, the rest of the instructions cannot be performed.
-3. Check the port is set correctly by showing the Board information. This can be done by clicking on Tools menu, then Get Board Info. You should see the Vendor ID, Product ID and Serial number of the Arduino board you're using. If you don't get that, then check the Arduino is plugged in, and that you have selected the correct port.
+3. Check the port is set correctly by showing the Board information. This can be done by clicking on Tools menu, then Get Board Info. You should see the Vendor ID, Product ID and Serial number of the Arduino board you're using. If you don't get that, then check the Arduino is plugged in, and that you have selected the correct COM port.
 
-## Upload the Analogue_Hydraulic_Handbrake.ino sketch
+## Upload the Analogue_Hydraulic_Handbrake.ino sketch to the Arduino
 The Analogue_Hydraulic_Handbrake.ino sketch was developed for use in an Analogue Hydraulic Handbrake, and was developed on an Arduino Zero, so it
 
 * turns off all features except the Brake
